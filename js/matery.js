@@ -172,13 +172,18 @@ jQuery(document).ready(function($) {
     //获取鼠标指针的位置，分别相对于文档的左和右边缘。
     //获取x和y的指针坐标
     var x = e.pageX, y = e.pageY;
+    var r = Math.floor(Math.random()*255);
+    var g = Math.floor(Math.random()*255);
+    var b = Math.floor(Math.random()*255);
+    var color = 'rgba('+ r +','+ g +','+ b +',1)';
+
     //在鼠标的指针的位置给$i定义的span标签添加css样式
     $i.css({"z-index" : 9999,
         "top" : y - 20,
         "left" : x,
         "position" : "absolute",
         "font-weight" : "bold",
-        "color" : "#ff6651"
+        "color" : color
         });
     //在body添加这个标签
     $("body").append($i);
