@@ -9,6 +9,7 @@
     margin: 0 3px !important;
     padding: 0;
 }
+#article-share{display: none;}
 .github-emoji:hover{
     animation: emoji-face 5s infinite ease-in-out;
 }
