@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>vue如何新建一个项目</title>
+      <link href="/2019/09/28/created-vue/"/>
+      <url>/2019/09/28/created-vue/</url>
+      
+        <content type="html"><![CDATA[<h2 id="vue如何新建一个项目"><a href="#vue如何新建一个项目" class="headerlink" title="vue如何新建一个项目"></a>vue如何新建一个项目</h2><h4 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h4><p>下载安装<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">node</a>环境</p><p>下载完成后直接安装即可</p><p>自定义安装可能需要配置环境变量</p><p>安装完成后打开cmd命令行, 执行以下命令</p><pre><code>node -vnpm -v</code></pre><p>执行成功会显示对应的版本号</p><p><img src="https://www.mdeditor.com/images/logos/markdown.png" alt="markdown" title="markdown"></p><h4 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h4><p>如果之前有创建过vue项目, 那么你肯定安装过vue-cli </p><pre><code>vue list</code></pre><p><img src="https://www.mdeditor.com/images/logos/markdown.png" alt="markdown" title="markdown"></p><p>出现以下情况则可以省略 npm install vue-cli -g 这一步</p><p><img src="https://www.mdeditor.com/images/logos/markdown.png" alt="markdown" title="markdown"></p><pre><code>npm install vue-cli -g</code></pre><p>然后执行 </p><pre><code>vue init webpack  &quot;项目名称&quot;</code></pre><p><img src="https://www.mdeditor.com/images/logos/markdown.png" alt="markdown" title="markdown"></p><p>这时候文件已经创建完成</p><p>cd “项目名称”</p><p>然后执行</p><pre><code>npm run dev</code></pre><p>如果没有文件中没有下载依赖,可直接执行 npm i</p><p>npm i 是 npm install 的缩写</p><pre><code>npm i </code></pre><p>好啦 ! 一个简单的vue 项目就创建成功啦 ! </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>test3y</title>
       <link href="/2019/09/27/b/"/>
       <url>/2019/09/27/b/</url>
