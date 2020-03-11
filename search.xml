@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>HTML DOM</title>
+      <link href="/2020/03/09/js-dom/"/>
+      <url>/2020/03/09/js-dom/</url>
+      
+        <content type="html"><![CDATA[<h1 id="JavaScript之神奇的DOM"><a href="#JavaScript之神奇的DOM" class="headerlink" title="JavaScript之神奇的DOM"></a>JavaScript之神奇的DOM</h1><p>文档对象模型（Document Object Model，简称DOM）将 web 页面与到脚本或编程语言连接起来，是W3C组织推荐的处理可扩展置标语言的标准编程接口。<br>在 HTML 语言中，标签可能拥有特性。当浏览器读取 HTML 文本并根据标签生成 DOM 对象，它会辨别标准化特性然后以此创建 DOM 属性。<br><img src="https://s2.ax1x.com/2020/03/10/8PwT0S.gif" alt="dom树"></p><h4 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h4><p>在DOM树中，有一个根节点，所有其他的节点都是根节点的后代。<br><img src="https://s2.ax1x.com/2020/03/10/8iS3Pf.png" alt="dom标签"></p><h4 id="通过dom-我们能做什么"><a href="#通过dom-我们能做什么" class="headerlink" title="通过dom 我们能做什么?"></a>通过dom 我们能做什么?</h4><h5 id="1-增"><a href="#1-增" class="headerlink" title="1. 增"></a>1. 增</h5><pre><code>document.createElement(element) //创建document.appendChild(element) //添加</code></pre><p><img src="https://s2.ax1x.com/2020/03/10/8iCDit.png" alt="新增dom" title="新增dom"></p><h6 id="浏览器预览"><a href="#浏览器预览" class="headerlink" title="浏览器预览"></a>浏览器预览</h6><p><img src="https://s2.ax1x.com/2020/03/10/8iCXw9.png" alt="浏览器预览" title="浏览器预览"></p><h5 id="2-删"><a href="#2-删" class="headerlink" title="2. 删"></a>2. 删</h5><pre><code>document.removeChild(element)document.replaceChild(new, old)</code></pre><p><img src="https://s2.ax1x.com/2020/03/10/8iisKS.png" alt="删除dom" title="删除dom"></p><h6 id="浏览器预览-1"><a href="#浏览器预览-1" class="headerlink" title="浏览器预览"></a>浏览器预览</h6><p><img src="https://s2.ax1x.com/2020/03/10/8iiBgf.png" alt="删除节点预览" title="删除节点预览"></p><h5 id="3-查"><a href="#3-查" class="headerlink" title="3. 查"></a>3. 查</h5><pre><code>document.getElementById(id)document.getElementsByTagName(name)document.getElementsByClassName(name)</code></pre><p><img src="https://s2.ax1x.com/2020/03/10/8ikiOU.png" alt="删除dom" title="查改dom"></p><h6 id="浏览器预览-2"><a href="#浏览器预览-2" class="headerlink" title="浏览器预览"></a>浏览器预览</h6><p><img src="https://s2.ax1x.com/2020/03/10/8ikClV.png" alt="删除节点预览" title="查改节点预览"></p><h5 id="4-改"><a href="#4-改" class="headerlink" title="4. 改"></a>4. 改</h5><p> 上图</p><h4 id="节点关系"><a href="#节点关系" class="headerlink" title="节点关系"></a>节点关系</h4><pre><code>&lt;html&gt;  &lt;head&gt;    &lt;title&gt;DOM Tutorial&lt;/title&gt;  &lt;/head&gt;  &lt;body&gt;    &lt;h1&gt;DOM Lesson one&lt;/h1&gt;    &lt;p&gt;Hello world!&lt;/p&gt;  &lt;/body&gt;&lt;/html&gt;</code></pre><ol><li><html> 是根节点</html></li><li><html> 没有父母</html></li><li><html>是<head><meta name="generator" content="Hexo 3.9.0">和<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head><body>的父</body></html></li><li><head><meta name="generator" content="Hexo 3.9.0"> 是大儿子 <html></html></head></li><li><body> 小儿子 <html></html></body></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>blog</title>
       <link href="/2019/10/09/blog/"/>
       <url>/2019/10/09/blog/</url>
